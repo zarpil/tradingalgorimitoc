@@ -1,0 +1,35 @@
+# ── Credenciales y configuración sensible ─────────────────────────────────────
+.env
+
+# ── Datos históricos (muy pesados, se regeneran con fetch_data.py) ────────────
+data/*.csv
+
+# ── Log de operaciones reales (privado) ───────────────────────────────────────
+trade_log.csv
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Entornos virtuales ────────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

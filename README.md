@@ -26,7 +26,7 @@ Validadas con **walk-forward out-of-sample** sobre 1 año de datos reales (8782 
 ## Instalación
 
 ```bash
-git clone https://github.com/TU_USUARIO/tradingalgorimitoc.git
+git clone https://github.com/zarpil/tradingalgorimitoc.git
 cd tradingalgorimitoc
 pip install -r requirements.txt
 ```
@@ -78,7 +78,6 @@ tradingalgorimitoc/
 ├── telegram_alerts.py      # Módulo de alertas Telegram
 ├── fetch_data.py           # Descarga de datos OHLCV desde Bybit
 ├── optimizer_grid.py       # Optimizador de parámetros SL/TP
-├── Pinescripts/            # Scripts de TradingView equivalentes
 ├── .env.example            # Plantilla de configuración
 ├── .gitignore
 ├── requirements.txt
